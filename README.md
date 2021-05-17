@@ -34,9 +34,9 @@ favoritos, que deve refletir nos botões da primeira lista.
 
 ## :bookmark: Resultado
 
-Desenvolvido aplicação utilizando [NextJS](https://nextjs.org), extremamente modular e que pode ser facilmente reaproveitado em outros problemas semelhantes.
-A api utilizada no projeto foi desenvolvida também, de forma serverless, que pode ser hospedada na [Vercel](https://vercel.com/) junto com a aplicação frontend de forma extremamente fácil, porém começou a ser cobrado integramente e por isso não está carregando os dados no site, você pode seguir o tutorial &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#construction_worker-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; e executar localmente sem problema.
-O banco de dados também foi desenvolvido e está online hospedado no [MongoDb Atlas](https://www.mongodb.com/cloud/atlas).
+<p>Desenvolvido aplicação utilizando [NextJS](https://nextjs.org), extremamente modular e que pode ser facilmente reaproveitado em outros problemas semelhantes.</p>
+<p>A api utilizada no projeto foi desenvolvida também, de forma serverless, que pode ser hospedada na [Vercel](https://vercel.com/) junto com a aplicação frontend de forma extremamente fácil, porém começou a ser cobrado integramente e por isso não está carregando os dados no site, você pode seguir o tutorial <a href="#construction_worker-como-rodar">Como rodar</a> e executar localmente sem problema.</p>
+<p>O banco de dados também foi desenvolvido e está online hospedado no [MongoDb Atlas](https://www.mongodb.com/cloud/atlas).</p>
 
 # :computer: Tecnologias
 
@@ -49,7 +49,7 @@ Esse projeto foi feito usando as seguintes tecnologias:
 - [styled components](https://styled-components.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [GitHub](https://github.com/)
-- [GitFlow]
+- [GitFlow](https://github.com/topics/gitflow)
 
 # :boom: Como rodar
 
