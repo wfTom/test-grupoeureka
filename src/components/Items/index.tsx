@@ -37,7 +37,7 @@ function Items(props: ItemsProps) {
         list?.map(
           item =>
             item.favorite === props.favorite && (
-              <Container key={item._id}>
+              <Container key={item.name}>
                 <div>
                   <h3>{item.name}</h3>
 
