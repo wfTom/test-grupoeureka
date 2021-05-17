@@ -1,4 +1,4 @@
-import { ObjectID, ObjectId } from 'mongodb'
+import { ObjectID } from 'mongodb'
 import { NextApiRequest, NextApiResponse } from 'next'
 import connect from '../../services/database'
 

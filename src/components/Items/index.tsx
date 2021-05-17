@@ -26,11 +26,8 @@ function Items(props: ItemsProps) {
 
   function favorite(item: CountryType) {
     item.favorite = !item.favorite
-    console.log('favorite ->', item)
-    console.log(list)
   }
 
-  console.log('items ->', list)
   return (
     <>
       {list &&

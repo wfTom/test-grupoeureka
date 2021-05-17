@@ -19,7 +19,7 @@ export const Container = styled.div`
 
   button {
     border: none;
-    /* padding: 1rem; */
+    margin-top: 0.6rem;
   }
 
   img {

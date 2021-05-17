@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Head from 'next/head'
 import { HomePage } from '../styles'
 import FavoriteList from '../components/FavoriteList'
 import { FavoriteProvider } from '../contexts/FavoriteContext'
-import { GetServerSideProps } from 'next'
-import api from '../services/api'
 import Items from '../components/Items'
 import { ObjectID } from 'bson'
 

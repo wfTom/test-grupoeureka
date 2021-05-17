@@ -13,8 +13,6 @@ export const HomePage = styled.div`
 
   section {
     display: flex;
-    /* width: 90%; */
-    /* height: 100vh; */
     justify-content: space-around;
     margin-top: 3rem;
   }

@@ -4,14 +4,12 @@ import api from '../services/api'
 
 interface FavoriteContextData {
   list: CountryType[]
-  // favorite: (CountryType) => void
 }
 
 export const FavoriteContext = createContext({} as FavoriteContextData)
 
 interface FavoriteProviderPros {
   children: ReactNode
-  // list: CountryType[]
 }
 
 interface CountryType {
@@ -29,7 +27,6 @@ export function FavoriteProvider({ children }: FavoriteProviderPros) {
 
   async function getApi() {
     await api('countries').then(response => {
-      console.log('getApi ->', response.data)
       let loaded = []
       for (const i in response.data) {
         loaded.push({
@@ -39,7 +36,6 @@ export function FavoriteProvider({ children }: FavoriteProviderPros) {
         })
       }
       setList(loaded)
-      console.log('list ->', loaded)
     })
   }
 
