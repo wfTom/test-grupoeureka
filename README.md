@@ -90,3 +90,12 @@ Acesse API em http://localhost:3000/
 # As vezes não instala corretamente junto com as outras dependências
 $ yarn install next
 ```
+
+# :closed_book: Licença
+
+Lançado em 2021
+
+Feito com amor por [wfTom](https://github.com/wfTom) 🚀. Este projeto está em
+a [MIT license](./LICENSE).
+
+Dê um ⭐️ se este projeto te ajudou!
