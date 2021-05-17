@@ -36,6 +36,7 @@ favoritos, que deve refletir nos botões da primeira lista.</p>
 
 <p>Desenvolvido aplicação utilizando <a href="https://nextjs.org">NextJS</a>, extremamente modular e que pode ser facilmente reaproveitado em outros problemas semelhantes.</p>
 <p>A api utilizada no projeto foi desenvolvida também, de forma serverless, que pode ser hospedada na <a href="https://vercel.com/">Vercel</a> junto com a aplicação frontend de forma extremamente fácil, porém começou a ser cobrado integramente e por isso não está carregando os dados no site, você pode seguir o tutorial <a href="#construction_worker-como-rodar">Como rodar</a> e executar localmente sem problema.</p>
+<p>Percebi que não vai funcionar pois localmente não existe a string de conexão com o banco, pesquisei uma api bacana e simples para substituir, mas não achei então preferi fazer um retorno fake na api que já existe, também por ser mais rápido.</p>
 <p>O banco de dados também foi desenvolvido e está online hospedado no <a href="https://www.mongodb.com/cloud/atlas">MongoDb Atlas</a></p>
 
 # :computer: Tecnologias
