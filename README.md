@@ -21,16 +21,16 @@
 
 ## :bookmark: Sobre
 
-Teste para a vaga de desenvolvedor javascript no Grupo Eureka
+<p>Teste para a vaga de desenvolvedor javascript no Grupo Eureka</p>
 
 ## :bookmark: Problema
 
-Criar uma página em React, que contenha duas listas, uma consumindo
+<p>Criar uma página em React, que contenha duas listas, uma consumindo
 qualquer API pública, e outra com "favoritos", escolhidos da primeira
 lista, na primeira lista temos que ter um botão para adicionar o item
 para a outra lista, que precisa ficar desativado se ele já estiver na
 outra lista, na segunda precisamos ter um botão para remover dos
-favoritos, que deve refletir nos botões da primeira lista.
+favoritos, que deve refletir nos botões da primeira lista.</p>
 
 ## :bookmark: Resultado
 
