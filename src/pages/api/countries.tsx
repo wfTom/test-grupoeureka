@@ -17,8 +17,8 @@ export default async (
 ): Promise<void> => {
   if (req.method === 'GET') {
     try {
-      const { db } = await connect()
-      const response = await db.collection('countries').find().toArray()
+      // const { db } = await connect()
+      // const response = await db.collection('countries').find().toArray()
 
       const countries = [
         { _id: new ObjectID('60a056a8081ca135800d620a'), name: 'Brasil' },
