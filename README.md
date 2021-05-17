@@ -34,9 +34,9 @@ favoritos, que deve refletir nos botões da primeira lista.
 
 ## :bookmark: Resultado
 
-<p>Desenvolvido aplicação utilizando [NextJS](https://nextjs.org), extremamente modular e que pode ser facilmente reaproveitado em outros problemas semelhantes.</p>
-<p>A api utilizada no projeto foi desenvolvida também, de forma serverless, que pode ser hospedada na [Vercel](https://vercel.com/) junto com a aplicação frontend de forma extremamente fácil, porém começou a ser cobrado integramente e por isso não está carregando os dados no site, você pode seguir o tutorial <a href="#construction_worker-como-rodar">Como rodar</a> e executar localmente sem problema.</p>
-<p>O banco de dados também foi desenvolvido e está online hospedado no [MongoDb Atlas](https://www.mongodb.com/cloud/atlas).</p>
+<p>Desenvolvido aplicação utilizando <a href="https://nextjs.org">NextJS</a>, extremamente modular e que pode ser facilmente reaproveitado em outros problemas semelhantes.</p>
+<p>A api utilizada no projeto foi desenvolvida também, de forma serverless, que pode ser hospedada na <a href="https://vercel.com/">Vercel</a> junto com a aplicação frontend de forma extremamente fácil, porém começou a ser cobrado integramente e por isso não está carregando os dados no site, você pode seguir o tutorial <a href="#construction_worker-como-rodar">Como rodar</a> e executar localmente sem problema.</p>
+<p>O banco de dados também foi desenvolvido e está online hospedado no <a href="https://www.mongodb.com/cloud/atlas">MongoDb Atlas</a></p>
 
 # :computer: Tecnologias
 
