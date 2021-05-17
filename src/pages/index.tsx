@@ -22,7 +22,6 @@ export default function Home(props: HomeProps) {
         <Head>
           <title>Homepage</title>
         </Head>
-        {console.log('index =>', props)}
 
         <main>
           <h1>Teste Grupo Eureka</h1>
