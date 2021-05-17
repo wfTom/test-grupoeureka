@@ -1,30 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    Teste Grupo Eureka
+</h1>
 
-## Getting Started
+<p align="center">
+   <a href="https://www.linkedin.com/in/wellington-barros-593ba0137/">
+      <img alt="Wellington Barros" src="https://img.shields.io/badge/-Wellington%20Barros-8257E5?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wfTom/test-grupoeureka?color=774DD6">
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark-problema">Problema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark-resultado">Resultado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#construction_worker-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+## :bookmark: Sobre
+
+Teste para a vaga de desenvolvedor javascript no Grupo Eureka
+
+## :bookmark: Problema
+
+Criar uma página em React, que contenha duas listas, uma consumindo
+qualquer API pública, e outra com "favoritos", escolhidos da primeira
+lista, na primeira lista temos que ter um botão para adicionar o item
+para a outra lista, que precisa ficar desativado se ele já estiver na
+outra lista, na segunda precisamos ter um botão para remover dos
+favoritos, que deve refletir nos botões da primeira lista.
+
+## :bookmark: Resultado
+
+Desenvolvido aplicação utilizando [NextJS](https://nextjs.org), extremamente modular e que pode ser facilmente reaproveitado em outros problemas semelhantes.
+A api utilizada no projeto foi desenvolvida também, de forma serverless, que pode ser hospedada na [Vercel](https://vercel.com/) junto com a aplicação frontend de forma extremamente fácil, porém começou a ser cobrado integramente e por isso não está carregando os dados no site, você pode seguir o tutorial &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#construction_worker-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; e executar localmente sem problema.
+O banco de dados também foi desenvolvido e está online hospedado no [MongoDb Atlas](https://www.mongodb.com/cloud/atlas).
+
+# :computer: Tecnologias
+
+Esse projeto foi feito usando as seguintes tecnologias:
+
+- [NextJS](https://nextjs.org)
+- [Vercel](https://vercel.com/)
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [styled components](https://styled-components.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [GitHub](https://github.com/)
+- [GitFlow]
+
+# :boom: Como rodar
+
+- ### **Requisitos**
+
+  - É **necessário** ter **[Node.js](https://nodejs.org/en/)** instalado
+    no computador.
+  - Além disso, é **necessário** ter um gerenciador de pacotes
+    **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  - É **opcional** ter **[Git](https://git-scm.com/)** instalado e
+    configurado no computador, mas é melhor ter.
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone o repositório
+$ git clone https://github.com/wfTom/test-grupoeureka.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 💻 Execute o Projeto
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Vá na pasta test-grupoeureka
+$ cd test-grupoeureka
 
-## Learn More
+# Instale as dependências
+$ yarn install
 
-To learn more about Next.js, take a look at the following resources:
+# Rode a aplicação
+$ yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Acesse API em http://localhost:3000/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- ### **Observação**
 
-## Deploy on Vercel
+  - Caso tenha algum aviso rode
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# As vezes não instala corretamente junto com as outras dependências
+$ yarn install next
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# :closed_book: Licença
+
+Lançado em 2021
+
+Feito com amor por [wfTom](https://github.com/wfTom) 🚀. Este projeto está em
+a [MIT license](./LICENSE).
+
+Dê um ⭐️ se este projeto te ajudou!

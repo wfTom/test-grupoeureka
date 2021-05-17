@@ -7,9 +7,26 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --white:#fff;
+    --gray:#f2f3f5;
+  }
+
   body{
     background: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
+    color: ${props => props.theme.colors.color};
+  }
+
+  body, input, textarea, button {
+    font: 400 1rem Roboto, sans-serif;
+  }
+
+  button {
+    cursor:pointer;
+  }
+
+  a {
+    color:inherit;
+    text-decoration:none;
   }
 `
